@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tmflabs.prj1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang Kawan"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="15dp"
+        android:hint="Masukan Daftar Teman" />
+
+    <Button
+        android:id="@+id/btnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edEditText"
+        android:layout_marginTop="26dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="TAMBAH TEMAN"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+    android:id="@+id/txtText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="10dp"
+    android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
